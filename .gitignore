@@ -1,0 +1,22 @@
+# Ignore environment variables and database credentials
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore Streamlit cache (optional)
+.streamlit/
+
+# Ignore logs and temporary files
+logs/
+*.log
